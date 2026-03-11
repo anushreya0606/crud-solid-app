@@ -1,4 +1,4 @@
-// I: Interface Segregation — focused hook, only handles form state
+// handles form state and validation separately from the main component
 import { useState } from 'react';
 import TaskValidator from '../utils/validator';
 

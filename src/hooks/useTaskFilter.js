@@ -1,4 +1,4 @@
-// I: Interface Segregation — focused hook, only handles filtering
+// just handles the filter logic, nothing else
 import { useState } from 'react';
 import filterStrategies from '../filters/filterStrategies';
 

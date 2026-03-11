@@ -1,9 +1,9 @@
-// D: Dependency Inversion — depends on abstraction, not concrete implementation
+// handles all task operations, gets the storage injected so we can swap it easily
 import IdGenerator from '../utils/idGenerator';
 
 class TaskService {
   constructor(repository) {
-    this.repo = repository; // injected dependency
+    this.repo = repository;
   }
   createTask(data) {
     return this.repo.add({

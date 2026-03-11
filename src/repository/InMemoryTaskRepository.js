@@ -1,4 +1,4 @@
-// L: Liskov Substitution — swappable with LocalStorageRepo or ApiRepo
+// stores tasks in memory for now, can be swapped with localStorage or an API later
 class InMemoryTaskRepository {
   constructor(initialData) {
     this._tasks = initialData;

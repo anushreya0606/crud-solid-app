@@ -1,4 +1,4 @@
-// S: Single Responsibility — only validates tasks
+// checks if the task form is filled correctly
 const TaskValidator = {
   validate: (task) => {
     if (!task.title?.trim()) return { valid: false, error: "Title is required" };
